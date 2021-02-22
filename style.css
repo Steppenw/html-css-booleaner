@@ -1,0 +1,37 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+}
+
+.logo {
+  height: 180px;
+  background-color: rgb(78, 160, 255);
+  background-image: url('img/pattern.png');
+  margin-bottom: 15px;
+}
+
+img.logo {
+  width: 200px;
+}
+
+.main-container {
+  width: 75%;
+  margin: auto;
+}
+
+div.author, div.date {
+  color: grey;
+}
+
+.author span {
+  color:rgb(78, 160, 255);
+}
+
+div.date {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+div.photo-credits {
+  font-size: 12px;
+}
