@@ -7,7 +7,6 @@
   height: 180px;
   background-color: rgb(78, 160, 255);
   background-image: url('img/pattern.png');
-  margin-bottom: 15px;
 }
 
 img.logo {
@@ -16,14 +15,18 @@ img.logo {
 
 .main-container {
   width: 75%;
-  margin: auto;
+  margin: 0 auto 20px;
 }
 
-div.author, div.date {
+header {
+  margin: 20px 0;
+}
+
+div.author, div.date, div.foot {
   color: grey;
 }
 
-.author span {
+div.author span {
   color:rgb(78, 160, 255);
 }
 
@@ -34,4 +37,63 @@ div.date {
 
 div.photo-credits {
   font-size: 12px;
+}
+
+div.article section {
+  margin-bottom: 30px;
+}
+
+.article span.highlighted {
+  background-color: yellow;
+}
+
+section ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+div.row div {
+  display: inline-block;
+}
+
+div.left, div.middle {
+  width: 25%;
+}
+
+div.right {
+  width: 48%;
+}
+
+div.title {
+  background-color: rgb(78, 160, 255);
+  color: white;
+}
+
+div.colored {
+  background-color: rgb(177, 229, 242);
+}
+
+div.more {
+  margin-top: 5px;
+  width: 200px;
+  height: 133px;
+  background-size: cover;
+  position: relative;
+}
+
+div.monitor {
+  background-image: url('img/monitor.jpg');
+}
+
+div.graph {
+  background-image: url('img/graph.jpg');
+}
+
+span.more-descr {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
 }
